@@ -148,3 +148,4 @@ students = [
 console.log("NAME -----  AGE  ------  CLASS  ------ TOTAL")
 console.log(students.at(0).name.concat(" ----- ").concat(students.at(0).age).concat(" -------- ").concat(students.at(0).class).concat("-----").concat(students.at(0).subjects.at(0).ca+students.at(0).subjects.at(0).exam))
 console.log(students.at(1).name.concat(" ----- ").concat(students.at(1).age).concat(" -------- ").concat(students.at(1).class).concat("-----").concat(students.at(1).subjects.at(1).ca+students.at(1).subjects.at(1).exam))
+console.log(students.at(2).name.concat(" ----- ").concat(students.at(2).age).concat(" -------- ").concat(students.at(2).class).concat("-----").concat(students.at(2).subjects.at(2).ca+students.at(2).subjects.at(2).exam))
