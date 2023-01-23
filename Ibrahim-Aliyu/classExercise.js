@@ -4,7 +4,7 @@
 // If it is not, add it and then print the list
 // Note that your array can not have "Coke" when initialized
 
-drinks = ['Fanta', 'Sprite', 'Coke']
+drinks = ['Fanta', 'Sprite']
 if(!drinks.includes('Coke')){
     drinks.push('Coke')
     console.log(drinks)
