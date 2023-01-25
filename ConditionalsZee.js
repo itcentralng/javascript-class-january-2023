@@ -12,7 +12,7 @@ else {
     (console.log(sprite));
 
 }
-console.log(sprite.at(0))
+
 
 
 
