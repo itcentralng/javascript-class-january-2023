@@ -53,10 +53,3 @@ OPERATORS
 // * MULTIPLICATION
 // % - MODULO DIVISION
 // / - DIVISION
-
-num1 = 30
-num2 = 2
-
-// check whether the we have a reminder or not
-
-if (num1%num2 > 0)
