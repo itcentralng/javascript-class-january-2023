@@ -13,11 +13,11 @@
 // "The string is a palindrome" if they are the same or
 // "The string is not a palindrome" if they are different.
 
-let str = "Radar";
+str = "ayman";
 str = str.toLowerCase();
-let charArray = str.split("");
-charArray.reverse();
-let reverseStr = charArray.join("");
+gist = str.split("");
+gist.reverse();
+reverseStr = gist.join("");
 if (str === reverseStr) {
   console.log("The string is a palindrome");
 } else {
@@ -29,10 +29,12 @@ if (str === reverseStr) {
 //  it with a list of integers. Use the array index
 // to access each element and multiply it by 2.
 // Output the modified array.
-let numbers = [1, 2, 3, 4, 5];
-for (let i = 0; i < numbers.length; i++) {
-  numbers[i] = numbers[i] * 2;
-}
+numbers = [1, 2, 3, 4, 5];
+numbers[0] = numbers[0] * 2;
+nymbers[1] = numbers[1] * 2;
+numbers[2] = numbers[2] * 2;
+numbers[3] = numbers[3] * 2;
+numbers[4] = numbers[4] * 2;
 console.log(numbers);
 
 // Q3:
@@ -41,9 +43,7 @@ console.log(numbers);
 // check if the age property is greater than 30, then
 // output the key-value pairs of the object using the
 // object properties.
-let person = { name: "ayman", age: 40, gender: "female" };
+person = { name: "ayman", age: 25, gender: "female" };
 if (person.age > 30) {
-  console.log("Name:" + person.name);
-  console.log("Age:" + person.age);
-  console.log("Gender:" + person.gender);
+  console.log(person);
 }
