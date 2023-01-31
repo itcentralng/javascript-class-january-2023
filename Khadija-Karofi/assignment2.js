@@ -1,11 +1,11 @@
 /*str = "HELLO WORLD";
 
-/*8console.log(str.toLowerCase()
-    .split(",")
-    .reverse("")
-    .join(""));*/
+str = toLowerCase()
+ list =   split(",")
+  list =  reverse("")
+   list. join("");
      
-/*reversestr = "hello world"
+reversestr = "hello world"
 
 if (str === reversestr) {
     console.log("the string is a palindrome")
@@ -13,12 +13,14 @@ if (str === reversestr) {
     console.log("the string is not palindrome")
 }*/
 
-/* = [1, 2, 3, 4, 5]
-i in range(len(nums))
-  nums[i] = nums[i] * 2
-console.log(nums)*/
+/*num = [1, 2, 3, 4, 5]
 
-person = {
+  nums[0] * 2
+  num[1] * 2
+  num[3] * 2
+   num[4]* 2*/
+
+/*person = {
    " name": "abba",
     "age": "35",
    " gender":"male",
@@ -26,8 +28,8 @@ person = {
 if (person.age > 30) {
     console.log("name: ". person.concat("name"));
     console.log("age:" .concat("age") .person);
-    console.log("gender:"  .concat("gender").person)
-}
+    console.log("gender:"  .concat("gender").person)}*/
+
     
 
 
