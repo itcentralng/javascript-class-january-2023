@@ -33,18 +33,5 @@ for (num1=1; num1<6; num1+=1){
 
 // Q2:
 // Write a program that loops through all
-<<<<<<< HEAD
 // alphabets in the english languge and
 // outputs the vowels
-=======
-// alphabets in the english languge and 
-// outputs the vowels
-
-alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-for (index=0; index<=alphabets.length; index+=1){
-    if ("AEIOU".includes(alphabets.at(index))){
-        console.log(alphabets.at(index))
-    }
-}
->>>>>>> 47387e38c3c79b148f4f178fa0e37c1a2fba73b0
