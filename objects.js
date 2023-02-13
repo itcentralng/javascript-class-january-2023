@@ -1,4 +1,4 @@
-person = {name:"Zaiyad", age:25, friend:"Khadija"}
+/*person = {name:"Zaiyad", age:25, friend:"Khadija"}
 
 console.log(person.name)
 console.log(person.age)
@@ -31,4 +31,7 @@ console.log("Hello, my name is ".concat(person2.friends.at(0).name))
 
 console.log(person2.friends.at(1).name)
 
-console.log(person2.hobbies.at(1).at(0))
+console.log(person2.hobbies.at(1).at(0))*/
+
+Name = "Zai yad"
+console.log(Name.split(" "))
