@@ -26,6 +26,7 @@ const prompt = require('prompt-sync')();
 // otherwise its game over
 
 
+
 player = prompt("Whats your name? ");
 maxSpend = 5000;
 playerLimit = prompt("How much do you want to spend? ")
@@ -54,7 +55,7 @@ if (playerLimit<=maxSpend){
             if (response=="yes"){
                 purchased.push(items.at(i))
             }
-    }
+        }
     }
     
     for (i=0; i<purchased.length; i+=1){
