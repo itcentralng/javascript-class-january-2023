@@ -69,7 +69,7 @@ if (playerLimit<=maxSpend){
         console.log("Sorry ".concat(player).concat(" better luck next time!!!"))
 
     }
-    
+     
 
     }
 
