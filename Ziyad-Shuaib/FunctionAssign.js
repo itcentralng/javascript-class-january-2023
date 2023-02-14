@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 Game = [
     {State: "Abia", Capital: "Umuahia" },
     {State:"Adamawa" , Capital: "Yola"} ,
@@ -37,18 +39,23 @@ Game = [
     {State:"Zamfara", Capital:"Gusau"},
 ]
 
-Answers = []
 
 const printGame = (Game)=>{
     Player = prompt("Hello, What is your name? ");
- for(i = 0; i <=Game.length; i++){
-    statenCap = prompt("What is the capital of " .concat(Game.at(i).State).concat(" .Or").concat("Quit?"));
-    if (statenCap == Game.at(i).Capital ){
-        Answers.push(Game.at(i).State.Capital)
+    
+    
+    for(i = 0; i <=Game.length; i++){
+        Continue = prompt("Do you want to play? (Yes/No)");
+        if(Continue == 'Yes'){
+        statenCap = prompt("What is the capital of " .concat(Game.at(i).State));
+        if (statenCap == Game.at(i).Capital ){
+            Answers.push(Game.at(i).State.Capital)
+    
+        }
+        
 
-    }
-    else (statenCap == "Quit?");{
-        console.log("Thank you for playing")
+    }else{
+        console.log('Thank You For Playing')
     }
  }
 
