@@ -1,16 +1,15 @@
-sprite = [1,2,3,4,5]
+//compare three numbers and return the smallest
 
-if(sprite.at(4)>12){
-    console.log(sprite.at(4));
+//num1 = 15
+//num2 = 14
+//num3 = 9
 
-}
- else if (sprite.at(0)>0){
- console.log(sprite.at(0))
-
-} 
-else {
-    (console.log(sprite));
-
+//if (num1 < num2 && num1 < num3 ){
+    console.log(num1)
+}else if (num2 < num3 && num2 < num1){
+    console.log(num2)
+}else{
+    console.log(num3)
 }
 
 
